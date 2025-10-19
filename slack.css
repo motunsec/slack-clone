@@ -713,7 +713,6 @@ h3{
   transition: all 0.3s ease;
 }
 
-/* show text & button on hover */
 .video-card:hover .overlay p,
 .video-card:hover .overlay button {
   opacity: 1;
@@ -733,16 +732,245 @@ h3{
   .customer-stories {
     display: none;
   }
+  .page1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .page2{
+   display: none;
+  }
+  .card{
+    width: 700px;
+    height: 300px;
+  }
+  .collab{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .video2{
+    display: none;
+  }
+  .page2-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .card-text{
+    color: #000;
+  }
+  .video1{
+    display: none;
+  }
+}
+@media (max-width: 838px) {
+  .card-text{
+    color: #000;
+  }
+  .customer-stories {
+    display: none;
+  }
+  .page1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .page2{
+   display: none;
+  }
+  .card{
+    width: 700px;
+    height: 300px;
+  }
+  .collab{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .video2{
+    display: none;
+  }
+  .page2-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .video1{
+    display: none;
+  }
+}
+@media (max-width: 892px) {
+  .card-text{
+    color: #000;
+  }
+  .customer-stories {
+    display: none;
+  }
+  .page1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .page2{
+   display: none;
+  }
+  .card{
+    width: 700px;
+    height: 300px;
+  }
+  .collab{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .video2{
+    display: none;
+  }
+  .page2-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .video1{
+    display: none;
+  }
 }
 @media (max-width: 468px) {
   .customer-stories {
     display: none;
   }
-}
-.custom-shape-divider-bottom-hero svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 120px; /* adjust for how deep the curve is */
-}
+  .subscription{
+    align-items: center;
+   display: flex;
+   flex-direction: column;
+   gap: 2em;
+  }
+  .video{
+    display: none;
+  }
+  h1{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 38px;
+  }
+  h3{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+  .collab{
+    display: flex;
+    flex-direction: column;
+  }
+  .video1{
+    display: none;
+  }
+  h4{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  h5{
+    font-size: 18px;
+  }
+  .page2{
+   display: none;
+  }
+  .section2{
+    display: none;
+  }
+  .end-text2{
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 28px;
+  }
+  .end-text{
+    margin-left: 30px;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 28px;
+  }
+  .card-text2{
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .page1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .your{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .get{
+    width: 200px;
+    height: auto;
+  }
+  .find{
+    width: 700px;
+    height: auto;
 
+  }
+
+  .bolt{
+    display: none;
+  }
+}
+.section3{
+  padding: 100px;
+  height: auto;
+  margin-top: 200px;
+  background: #481A54;
+}
+.growing{
+  margin-top: 100px;
+  margin-left: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-family: 'BR Segma', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 56px;
+}
+.estimations{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.estimation{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.percent{
+  margin-top: 50px;
+  font-family: 'BR Segma', sans-serif;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 104px;
+}
+.percent-text{
+  font-family: 'BR Segma', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+@media(min-width:468px){
+  .card{
+    display: none;
+  }
+ 
+}
