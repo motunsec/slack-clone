@@ -932,7 +932,24 @@ h3 {
   .card-text {
     color: #000;
   }
-
+  .page1-text{
+    display: none;
+  }
+  .section3{
+    display: none;
+  }
+  .first{
+    display: none;
+  }
+  .second{
+    display: none;
+  }
+.section4{
+  display: none;
+}
+.end{
+ margin-top: 50px;
+}
   .customer-stories {
     display: none;
   }
@@ -1051,7 +1068,9 @@ h3 {
     flex-direction: column;
     align-items: center;
   }
-
+.section3{
+  display: none;
+}
   .page1 {
     display: flex;
     flex-direction: column;
@@ -1080,7 +1099,15 @@ h3 {
   .bolt {
     display: none;
   }
+  .section4{
+    display: none;
+  }
+  .end{
+    display: none;
+  }
+  
 }
+
 
 .section3 {
   padding: 100px;
