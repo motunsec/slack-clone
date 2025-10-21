@@ -1368,10 +1368,10 @@ h3 {
   line-height: 56px;
 }
 .footer {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   transform: translateY(-500px);
   background: white;
-  height: 1000px;
+  height: 2000px;
 }
 .footer-icons {
   align-items: center;
@@ -1405,7 +1405,7 @@ h3 {
 .footer-text a:hover{
   color: #007BFF;
 }
-hr{
+.line{
  margin: 0 50px;
  margin-top: 50px;
 }
@@ -1431,15 +1431,14 @@ hr{
   text-decoration: none;
   display: flex;
   font-family: 'BR Segma', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 300;
+  font-size: 15px;
   line-height: 22px;
   color: gray;
   margin-top: 10px;
 }
 .word .sub {
   display: flex;
-  text-align: left;
   font-family: 'BR Segma', sans-serif;
   font-weight: 400;
   font-size: 14px;
