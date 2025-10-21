@@ -1463,3 +1463,36 @@ h3 {
   font-size: 14px;
   line-height: normal;
 }
+.final{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.one-side{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2em;
+}
+.install a{
+  color: #126EAF;
+  text-decoration: none;
+  font-family: 'BR Segma', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: normal;
+}
+.install a:hover{
+  text-decoration: underline;
+}
+.other-side{
+  margin-top: 50px;
+}
+.llc{
+  font-family: 'BR Segma', sans-serif;
+  color: gray;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
