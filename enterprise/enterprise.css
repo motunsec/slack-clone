@@ -764,6 +764,7 @@ h4 {
 .sub {
   font-size: 18px;
   color: gray;
+  margin-top: 20px;
   line-height: 28px;
   font-family: 'BR Segma', sans-serif;
 }
@@ -787,10 +788,10 @@ h4 {
   }
 }
 .big-card {
- border: 2px solid red;
+ /* border: 2px solid red; */
  flex-direction: column;
   width: 1225px;              
-  height: 700px;      
+  height: 1000px;      
   background-image: linear-gradient(180deg, #EAF5FE, #FFFFFF);       
   border-radius: 20px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
@@ -803,8 +804,9 @@ h4 {
   font-size: 22px;
   font-weight: 400;
   color: black;
-  margin-top: 50px;
-  margin-bottom: 15px;
+  /* margin-top: 90px;
+  margin-bottom: 15px; */
+  padding: 10px;
   font-family: 'BR Segma', sans-serif;
 }
 .empower{
@@ -813,8 +815,9 @@ h4 {
   font-size: 50px;
   font-weight: 600;
   color: black;
-  margin-top: 40px;
-  margin-bottom: 15px;
+  padding: 10px;
+  margin-top: 40px; 
+  margin-bottom: 15px; 
   font-family: 'BR Segma', sans-serif;
 }
 .agents{
@@ -836,3 +839,131 @@ h4 {
   margin-bottom: 15px;
   font-family: 'BR Segma', sans-serif; 
 }
+.video{
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 200px;
+  width: 800px;
+  height: auto;
+}
+@media (max-width: 600px) {
+  .big-card {
+    width: 90%;
+    height: auto;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  .agent,
+  .empower,
+  .agents,
+  .more {
+    margin-left: 0;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .empower {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+
+  .agents {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .more {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .video {
+    width: 100%;
+    height: auto;
+    margin: 30px auto 10px auto;
+    display: block;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  .big-card {
+    width: 90%;
+    height: auto;
+    margin: 60px auto;
+    padding: 30px;
+  }
+
+  .agent,
+  .empower,
+  .agents,
+  .more {
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  .empower {
+    font-size: 38px;
+  }
+
+  .agents {
+    font-size: 18px;
+  }
+
+  .video {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    display: block;
+  }
+}
+@media (min-width: 1225px) {
+  .big-card {
+    width: 1225px;
+  }
+}
+.section6 {
+  width: 90%;
+  margin: 80px auto;       
+  padding-left: 60px;      
+  text-align: left;        
+}
+.solutions {
+  text-align: left;       
+}
+.this {
+  font-size: 28px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 15px;
+  font-family: 'BR Segma', sans-serif;
+}
+.sub {
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.5;
+  font-family: 'BR Segma', sans-serif;
+}
+ .bulb-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  width: 90%;
+  margin: 60px auto;
+  gap: 40px;                     
+}
+.bulb {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 6px 30px;         
+  margin-left: 40px;
+}
+
+.main {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  font-family: 'BR Segma', sans-serif;
+} 
+ 
