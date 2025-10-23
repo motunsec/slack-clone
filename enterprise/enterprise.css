@@ -22,7 +22,7 @@ header {
   /* border: 2px solid black; */
   background: #FFFFFF;
   height: auto;
-  max-width: 1200px;
+  max-width: 1800px;
   margin: 0 auto;
   padding: 10px;
 }
@@ -64,10 +64,10 @@ nav {
   gap: 1em;
 }
 
-.signin {
+.in {
   text-decoration: none;
   font-family: 'BR Segma', sans-serif;
-  ;
+  color: black;
   font-size: 15px;
   font-weight: 500;
   line-height: normal;
@@ -1278,4 +1278,233 @@ p {
   color: #495057;
   font-size: 0.95rem;
   line-height: 1.5;
+}
+
+.last {
+  background: #4A154B;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.works {
+  margin-top: 100px;
+  color: white;
+  font-family: 'BR Segma', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 56px;
+}
+
+.last-btn {
+  margin-top: 30px;
+  gap: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.speak {
+  padding: 20px 25px;
+  border-radius: 10px;
+  background: white;
+  color: #4A154B;
+  text-decoration: none;
+  font-family: 'BR Segma', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.view {
+  padding: 20px 25px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  font-family: 'BR Segma', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@media (max-width: 992px) {
+  .last .works {
+    font-size: 2rem;
+  }
+
+  .last-btn a {
+    padding: 0.7rem 1.8rem;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .last .works {
+    font-size: 1.5rem;
+  }
+
+  .last-btn {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .last-btn a {
+    width: 100%;
+    padding: 0.8rem 0;
+    text-align: center;
+  }
+}
+
+.footer {
+  /* border: 2px solid red; */
+  margin-top: 100px;
+  background: white;
+  height: 2000px;
+}
+
+.footer-icons {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.footer-text {
+  gap: 1em;
+  margin-top: 100px;
+  font-family: 'BR Segma', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.footer-text a {
+  gap: 2em;
+  text-decoration: none;
+  color: #4d4747;
+  font-family: 'BR Segma', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  list-style-type: none;
+}
+
+.footer-text a:hover {
+  color: #007BFF;
+}
+
+.line {
+  margin: 0 50px;
+  margin-top: 50px;
+}
+
+.stuff {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.word-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 40px;
+}
+
+.word {
+  display: flex;
+  /* text-align: left; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub a {
+  text-decoration: none;
+  display: flex;
+  font-family: 'BR Segma', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  color: gray;
+  margin-top: 10px;
+}
+
+.word .sub {
+  display: flex;
+  font-family: 'BR Segma', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: gray;
+  margin-top: 12px;
+}
+
+.sub a:hover {
+  color: #66C9FF;
+}
+
+.main a {
+  text-decoration: none;
+  font-family: 'BR Segma', sans-serif;
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: normal;
+}
+
+.main {
+  font-family: 'BR Segma', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: normal;
+}
+
+.final {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.one-side {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2em;
+}
+
+.install a {
+  color: #126EAF;
+  text-decoration: none;
+  font-family: 'BR Segma', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: normal;
+}
+
+.install a:hover {
+  text-decoration: underline;
+}
+
+.other-side {
+  margin-top: 50px;
+}
+
+.llc {
+  font-family: 'BR Segma', sans-serif;
+  color: gray;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
 }
