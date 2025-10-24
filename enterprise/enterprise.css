@@ -349,6 +349,183 @@ h4 {
   display: none;
 }
 
+@media (max-width: 992px) {
+  header {
+    max-width: 100%;
+    padding: 10px 20px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .left-side {
+    flex-wrap: wrap;
+    gap: 1em;
+    width: 100%;
+  }
+
+  .right-side {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .sales a,
+  .start a {
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+
+  .dropdown-content,
+  .list-content,
+  .register-content {
+    position: static;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    box-shadow: none;
+  }
+
+  .featured,
+  .featured2 {
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 22px;
+    right: 25px;
+    z-index: 1200;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    width: 90px;
+  }
+
+  .nav-links,
+  .right-side {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: white;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    gap: 15px;
+  }
+
+  #menu-toggle:checked~nav .nav-links,
+  #menu-toggle:checked~nav .right-side {
+    display: flex;
+    animation: slideDown 0.3s ease forwards;
+  }
+
+  .sales a,
+  .start a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .in {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 8px 10px;
+  }
+
+  .hamburger {
+    top: 18px;
+    right: 18px;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+  .sales a,
+  .start a {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1075px) {
+  .hamburger {
+    display: block;
+    color: #611F69;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 26px;
+    cursor: pointer;
+    z-index: 1001;
+  }
+
+  .nav-links,
+  .right-side {
+    display: none;
+  }
+
+  #menu-toggle:checked~nav .nav-links,
+  #menu-toggle:checked~nav .right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    gap: 1.5em;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    z-index: 1000;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2em;
+  }
+
+  .right-side {
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+
+  .sales a,
+  .start a {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+  }
+}
+
+
 .section1 {
   /* border: 2px solid red; */
   display: flex;
@@ -530,7 +707,7 @@ h4 {
 
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 
   .nav-links {
     display: none;
@@ -633,7 +810,7 @@ h4 {
   .start {
     display: none;
   }
-}
+} */
 
 .section2 {
   /* border: 2px solid yellow; */
@@ -1507,4 +1684,74 @@ p {
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
+}
+@media (max-width: 768px) {
+  .footer-icons {
+    flex-direction: column;
+    gap: 1.5em;
+    text-align: center;
+  }
+
+  .footer-text {
+    margin-top: 30px;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .stuff {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .word-list {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 30px;
+  }
+
+  .word {
+    align-items: center;
+  }
+
+  .final {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    text-align: center;
+  }
+
+  .one-side {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .llc {
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .line {
+    margin: 30px auto;
+    width: 80%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .word-list {
+    grid-template-columns: 1fr;
+  }
+
+  .install a {
+    font-size: 18px;
+  }
+
+  .footer-text a {
+    font-size: 14px;
+  }
 }

@@ -1,11 +1,536 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.lineicons.com/5.0/lineicons.css" />
+    <link href="https://fonts.cdnfonts.com/css/br-segma" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./talktosales.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav>
+            <div class="left-side">
+                <img src="./image/imgi_140_07td46ju7p6lLVb0QGwc5VF-23..v1755628707-removebg-preview (1).png" alt=""
+                    class="logo">
+                <ul class="nav-links">
+                    <ul class="menu">
+                        <li class="dropdown">
+                            <a href="#">Features<i class="fa-solid fa-chevron-down"></i></a>
+                            <div class="dropdown-content">
+                                <div class="column">
+                                    <h4>Collaboration</h4>
+                                    <a href="#">Channels <br>
+                                        <h5>Organise teams and work</h5>
+                                    </a>
+
+                                    <a href="#">Slack connect <br>
+                                        <h5>Work with external partners</h5>
+                                    </a>
+
+                                    <a href="#">Messaging <br>
+                                        <h5>Chat with your team</h5>
+                                    </a>
+
+                                    <a href="">Huddles <br>
+                                        <h5>Meet using audio and video</h5>
+                                    </a>
+
+                                    <a href="">Clips <br>
+                                        <h5>Record and share updates</h5>
+                                    </a>
+                                </div>
+                                <div class="column">
+                                    <h4>Project Management</h4>
+                                    <a href="">Templates <br>
+                                        <h5>Start any task, fast</h5>
+                                    </a>
+
+                                    <a href="">Canvas <br>
+                                        <h5>Create rich, flexible docs</h5>
+                                    </a>
+
+                                    <a href="">Lists <br>
+                                        <h5>Organise, track and manage projects</h5>
+                                    </a>
+
+                                    <a href="">File Sharing <br>
+                                        <h5>Bring files into the flow of work</h5>
+                                    </a><br>
+
+                                    <h4>Integrations</h4>
+                                    <a href="">Workflow builder <br>
+                                        <h5>Automate everyday tasks</h5>
+                                    </a>
+                                    <a href="">Apps & Integrations <br>
+                                        <h5>Connect your tools with Slack</h5>
+                                    </a>
+                                    <a href="">Slack and Salesforce <br>
+                                        <h5>Bring CRM insights into Slack</h5>
+                                    </a>
+                                </div>
+                                <div class="column">
+                                    <h4>Intelligence</h4>
+                                    <a href=""><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M21.9956 12.0175C16.6323 12.3419 12.3399 16.6343 12.0156 21.9975H11.9756C11.6556 16.6343 7.36325 12.3419 2 12.0175V11.9775C7.36325 11.6576 11.6556 7.36521 11.98 2.00195H12.02C12.3444 7.36521 16.6367 11.6576 22 11.982V12.0175H21.9956Z"
+                                                fill="#323544" />
+                                        </svg>
+                                        AI in Slack <br>
+                                        <h5>Save time and work smarter with powerfully simple AI</h5>
+                                    </a>
+
+                                    <a href="">Agent force <br>
+                                        <h5>Empower your whole team with AI-powered agents in Slack</h5>
+                                    </a>
+
+                                    <a href="">Enteprise Search <br>
+                                        <h5>Find anything, all from a single search bar</h5>
+                                    </a><br><br>
+
+                                    <h4>Enterprise Platform</h4>
+                                    <a href="">Security <br>
+                                        <h5>Protect data, ensure compliance</h5>
+                                    </a>
+                                    <a href="">Enterprise Key Management <br>
+                                        <h5>Monitor and revoke access</h5>
+                                    </a>
+                                    <a href="">Slack Atlas <br>
+                                        <h5>Discover rich profiles and org charts</h5>
+                                    </a>
+                                </div>
+                                <div class="featured">
+                                    <h4>Featured</h4>
+                                    <img src="./image/imgi_5_featured-enterprise-search-promo.jpg" alt=""
+                                        class="picture">
+                                    <h5>
+                                        Search everything. Find anything. Say hello to enterprise search.</h5> <br>
+                                    <a href="">
+                                        <h5>Learn more <i class="fa-solid fa-arrow-right"></i></h5>
+                                    </a>
+                                    <hr>
+                                    <a href="">
+                                        <h5>What is Slack?</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Slack vs email</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Accessibility</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list">
+                        <li class="dropdown">
+                            <a href="">Solutions <i class="fa-solid fa-chevron-down"></i></a>
+                            <div class="list-content">
+                                <div class="column">
+                                    <h4>BY DEPARTMENT</h4>
+                                    <a href="">
+                                        <h5>Engineering</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>IT</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Customer Service</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Sales</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Project Management</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Marketing</h5>
+                                    </a> <a>
+                                        <h5>Human Resources</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Security</h5>
+                                    </a>
+                                </div>
+                                <div class="column">
+                                    <h4>BY INDUSTRY</h4>
+                                    <a href="">
+                                        <h5>
+                                            Manufacturing, auto and energy</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Technology</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Media</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Small business</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Financial services</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Retail</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Educaion</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Health and life sciences</h5>
+                                    </a>
+                                </div>
+                                <div class="column">
+
+                                </div>
+                                <div class="featured">
+                                    <h4>TEMPLATE GALLERY</h4>
+                                    <img src="./image/imgi_6_feature-template-gallery@2x.jpg" alt="" class="picture">
+                                    <h5>Start work faster with pre-made templates for every task.</h5><br>
+                                    <a href="">
+                                        <h5>See all templates <i class="fa-solid fa-arrow-right"></i></h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Task management</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Scale</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Engagement</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Trust</h5>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <li><a href="">Enterprise</a></li>
+                    <ul class="register">
+                        <li class="dropdown">
+                            <a href="">Resources<i class="fa-solid fa-chevron-down"></i></a>
+                            <div class="register-content">
+                                <div class="column">
+                                    <a href="">
+                                        <h5>Resources library</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Events</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Customers stories</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Blog</h5>
+                                    </a>
+                                </div>
+                                <div class="column">
+                                    <a href="">
+                                        <h5>What's new</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Developers</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Community</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Slack Marketplace</h5>
+                                    </a>
+                                </div>
+                                <div class="column">
+                                    <a href="">
+                                        <h5>Product tour</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Partners</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Slack Certified</h5>
+                                    </a>
+                                </div>
+                                <div class="featured2">
+                                    <h4>FEATURED</h4>
+                                    <img src="./image/imgi_7_nav-ad-success-hub@2x.png" alt="" class="picture"><br>
+                                    <h5>Tips and tricks on getting started with Slack</h5>
+                                    <a href="">
+                                        <h5>Get Started <i class="fa-solid fa-arrow-right"></i></h5>
+                                    </a>
+                                    <hr>
+                                    <a href="">
+                                        <h5>Help Centre</h5>
+                                    </a>
+                                    <a href="">
+                                        <h5>Customer support</h5>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <li><a href="">Pricing</a></li>
+            </div>
+            <div class="right-side">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="" class="in">
+                    Sign in
+
+                </a>
+                <button class="sales">
+                    <a href="">
+                        TALK TO SALES
+
+                    </a>
+                </button>
+                <button class="start">
+                    <a href="">
+                        GET STARTED
+                    </a>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <section class="contact">
+        <h1 class="team">Contact our sales team</h1>
+        <h5 class="happy">We're happy to answer questions and get you acquainted with Slack.</h5>
+        <ul class="contact-list">
+            <li> <i class="fa-solid fa-check"></i> Schedule a demo</li><br>
+            <li> <i class="fa-solid fa-check"></i> Get pricing information</li><br>
+            <li> <i class="fa-solid fa-check"></i> Explore use cases for your team</li><br>
+            <li><i class="fa-solid fa-circle-question"></i>
+                For technical issues and product questions, please visit our <a href=""><span
+                        style="color: #4790E6; text-decoration: underline;">Help Centre</span></a>.</li>
+        </ul>
+    </section>
+    <section class="contact-form">
+        <form>
+            <div class="form-row">
+                <input type="text" placeholder="First name *" required>
+                <input type="text" placeholder="Your surname *" required>
+            </div>
+
+            <div class="form-row">
+                <input type="email" placeholder="Work email address" required>
+                <select required>
+                    <option value="">Role*</option>
+                    <option>CXO</option>
+                    <option>VP</option>
+                    <option>Director</option>
+                    <option>Head of/Dept lead/Team lead</option>
+                    <option>Manager</option>
+                    <option>Contributor</option>
+                </select>
+
+            </div>
+
+            <div class="form-row">
+                <input type="text" placeholder="Country/Region *" required>
+                <select required>
+                    <option value="">Please select one*</option>
+                    <option>1-15</option>
+                    <option>16-100</option>
+                    <option>101-500</option>
+                    <option>500-1000</option>
+                    <option>1001+</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <input type="text" placeholder="Phone number *" required>
+                <select required>
+                    <option value="">How can our sales team help you? *</option>
+                    <option>I want to evaluate Slack for my organisation</option>
+                    <option>I want to understand which Slack subscription is right for me</option>
+                    <option>I want to buy liscences or upgrade</option>
+                    <option>I have a product question</option>
+                    <option>I needa compliance plan</option>
+                </select>
+            </div>
+
+            <hr>
+
+            <div class="form-row">
+                <textarea placeholder="Anything else?" rows="4"></textarea>
+            </div>
+            <h5 class="by">By registering, you confirm that you agree to the processing of your personal data by
+                Salesforce as described in the <a href=""><span
+                        style="color: #4790E6;text-decoration: underline;">Privacy Statement.</span></a></h5><br>
+            <div class="p-3 text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-3">
+                Fields marked with an asterisk (*) are required.
+            </div><br>
+            <button type="submit" class="submit-btn">SUBMIT</button>
+        </form>
+    </section>
+    <section class="incredible">
+        <h1 class="use">Incredible companies use Slack</h1>
+        <div class="pics">
+            <img src="./image/imgi_9_logo-natwest.png" alt="" class="gsk">
+            <img src="./image/imgi_10_gsk.png" alt="" class="gsk">
+            <img src="./image/imgi_11_sky-uk.png" alt="" class="gsk">
+            <img src="./image/imgi_12_uber.png" alt="" class="gsk">
+            <img src="./image/imgi_13_airbnb-logo.png" alt="" class="gsk">
+            <img src="./image/imgi_14_m-g-investments.png" alt="" class="mandg">
+
+            <hr class="dash">
+        </div>
+        <div class="deliveroo">
+            <img src="./image/imgi_29_deliveroo@2x.png" alt="" class="kang"><br>
+            <em>“The thing that keeps us connected the most is Slack. It's a very immediate and straightforward method
+                of <br>communication, and really the only channel that people prefer and enjoy using.”</em><br>
+            <h4 class="will">
+                <strong> Will Sprunt</strong><br>
+                CIO, Deliveroo
+            </h4>
+        </div>
+    </section>
+     <section class="footer">
+        <div class="footer-icons">
+            <h4 class="footer-text"><a href=""><i class="fa-solid fa-globe"></i>Change location<i
+                        class="fa-solid fa-chevron-down"></i></a></h4>
+
+            <div class="footer-text">
+                <ul class="footer-links">
+                    <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <hr class="line">
+        <div class="stuff">
+            <div class="word-list">
+                <img src="./image/imgi_8_default.jpeg" alt="" class="logo">
+                <div class="word">
+                    <div class="main"><a href="">PRODUCT</a></div>
+                    <div class="sub"><a href="">Watch demo</a></div>
+                    <div class="sub"><a href="">Pricing</a></div>
+                    <div class="sub"><a href="">Paid vs Free</a></div>
+                    <div class="sub"><a href="">Accessibility</a></div>
+                    <div class="sub"><a href="">Featured releases</a></div>
+                    <div class="sub"><a href="">Change log</a></div>
+                    <div class="sub"><a href="">Status</a></div><br><br>
+
+                    <div class="main"><a href="">WHY SLACK?</a></div>
+                    <div class="sub"><a href="">Slack vs email</a></div>
+                    <div class="sub"><a href="">Enterprise</a></div>
+                    <div class="sub"><a href="">Small business</a></div>
+                    <div class="sub"><a href="">Productivity</a></div>
+                    <div class="sub"><a href="">Task management</a></div>
+                    <div class="sub"><a href="">Scale</a></div>
+                    <div class="sub"><a href="">Trust</a></div>
+                </div>
+
+                <div class="word">
+                    <div class="main"><a href="">FEATURES</a></div>
+                    <div class="sub"><a href="">Channels</a></div>
+                    <div class="sub"><a href="">Slack Connect</a></div>
+                    <div class="sub"><a href="">Workflow Builder</a></div>
+                    <div class="sub"><a href="">Messaging</a></div>
+                    <div class="sub"><a href="">Huddles</a></div>
+                    <div class="sub"><a href="">Canvas</a></div>
+                    <div class="sub"><a href="">Lists</a></div>
+                    <div class="sub"><a href="">Clips</a></div>
+                    <div class="sub"><a href="">Apps & integrations</a></div>
+                    <div class="sub"><a href="">File sharing</a></div>
+                    <div class="sub"><a href="">Slack AI</a></div>
+                    <div class="sub"><a href="">Agentforce</a></div>
+                    <div class="sub"><a href="">Enterprise search</a></div>
+                    <div class="sub"><a href="">Security</a></div>
+                    <div class="sub"><a href="">Enterprise <br>Key Management</a></div>
+                    <div class="sub"><a href="">Slack Atlas</a></div>
+                    <div class="sub"><a href="">See all features</a></div>
+                </div>
+
+                <div class="word">
+                    <div class="main"><a href="">SOLUTIONS</a></div>
+                    <div class="sub"><a href="">Engineering</a></div>
+                    <div class="sub"><a href="">IT</a></div>
+                    <div class="sub"><a href="">Customer service</a></div>
+                    <div class="sub"><a href="">Sales</a></div>
+                    <div class="sub"><a href="">Project management</a></div>
+                    <div class="sub"><a href="">Marketing</a></div>
+                    <div class="sub"><a href="">Security</a></div>
+                    <div class="sub"><a href="">Manufacturing, <br>auto and energy</a></div>
+                    <div class="sub"><a href="">Technology</a></div>
+                    <div class="sub"><a href="">Media</a></div>
+                    <div class="sub"><a href="">Financial services</a></div>
+                    <div class="sub"><a href="">Retail</a></div>
+                    <div class="sub"><a href="">Public sector</a></div>
+                    <div class="sub"><a href="">Education</a></div>
+                    <div class="sub"><a href="">Health and life sciences</a></div>
+                    <div class="sub"><a href="">See all solutions</a></div>
+                </div>
+
+                <div class="word">
+                    <div class="main"><a href="">RESOURCES</a></div>
+                    <div class="sub"><a href="">Help Centre</a></div>
+                    <div class="sub"><a href="">What's new</a></div>
+                    <div class="sub"><a href="">Resources library</a></div>
+                    <div class="sub"><a href="">Slack blog</a></div>
+                    <div class="sub"><a href="">Community</a></div>
+                    <div class="sub"><a href="">Customer stories</a></div>
+                    <div class="sub"><a href="">Events</a></div>
+                    <div class="sub"><a href="">Developers</a></div>
+                    <div class="sub"><a href="">Partners</a></div>
+                    <div class="sub"><a href="">Partner offers</a></div>
+                    <div class="sub"><a href="">Slack marketplace</a></div>
+                    <div class="sub"><a href="">Slack certified</a></div>
+                </div>
+
+                <div class="word">
+                    <div class="main"><a href="">COMPANY</a></div>
+                    <div class="sub"><a href="">About us</a></div>
+                    <div class="sub"><a href="">News</a></div>
+                    <div class="sub"><a href="">Media kit</a></div>
+                    <div class="sub"><a href="">Brand centre</a></div>
+                    <div class="sub"><a href="">Careers</a></div>
+                    <div class="sub"><a href="">Slack shop</a></div>
+                    <div class="sub"><a href="">Engineering blog</a></div>
+                    <div class="sub"><a href="">Design blog</a></div>
+                    <div class="sub"><a href="">Contact us</a></div>
+                </div>
+            </div>
+        </div>
+        <hr class="line">
+        <div class="final">
+            <div class="one-side">
+                <h5 class="install"><a href="">Download Slack <i class="fa-solid fa-cloud-arrow-down"></i></a></h5>
+                <h5 class="sub"><a href="">Privacy</a></h5>
+                <h5 class="sub"><a href="">Terms</a></h5>
+                <h5 class="sub"><a href="">Cookie preferences</a></h5>
+                <h5 class="sub"><a href="">Your privacy choices</a></h5>
+            </div>
+            <div class="other-side">
+                <h5 class="llc">©2025 Slack Technologies, LLC, a Salesforce company. All rights <br> reserved. Various
+                    trademarks held by their respective owners.</h5>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
