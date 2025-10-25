@@ -13,7 +13,7 @@ body {
 header {
     position: absolute;
     border-radius: 50px;
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -523,4 +523,254 @@ h4 {
         width: 80%;
         text-align: center;
     }
+}
+.section1{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    /* border: 2px solid black; */
+    background-image: linear-gradient(180deg, #F9FCF7, #EBF7E6);
+    flex-direction: column;
+}
+.limits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.channels{
+   font-family: 'BR Segma', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 18px; 
+   margin-bottom: 40px;
+}
+.work{
+    font-family: 'BR Segma', sans-serif;
+   font-size: 50px;
+   font-weight: 700;
+   line-height: 56px; 
+}
+.bring{
+    font-family: 'BR Segma', sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 30px; 
+}
+.click{
+    margin-top: 50px;
+    gap: 2em;
+}
+.tart{
+    text-decoration: none;
+    font-family: 'BR Segma', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    background: #611F69;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.tart:hover{
+    background: #4A154B;
+}
+.to{
+    text-decoration: none;
+    font-family: 'BR Segma', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #611F69;
+    border: 1px solid #611F69;
+    padding: 20px 30px;
+    border-radius: 10px;
+
+}
+.zigzag {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.text {
+  flex: 1;
+  text-align: left;
+}
+
+.head {
+  font-family: 'BR Segma', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 15px;
+}
+
+.middle {
+  font-family: 'BR Segma', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.end{
+  font-family: 'BR Segma', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+.image {
+  flex: 1;
+}
+.vid{
+    flex: 1;
+    width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: transform 0.4s ease;
+}
+.vid:hover {
+  transform: scale(1.03);
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: transform 0.4s ease;
+}
+.image img:hover {
+  transform: scale(1.03);
+}
+.slackai{
+  text-decoration: none;
+  font-family: 'BR Segma', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 0.2px;
+  margin-bottom: 15px;
+}
+@media (max-width: 900px) {
+  .row {
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .zigzag {
+    gap: 60px;
+    padding: 50px 20px;
+  }
+}
+@media (max-width: 900px) {
+  .section1 {
+    padding: 60px 60px;
+  }
+
+  .work {
+    font-size: 34px;
+  }
+
+  .bring {
+    font-size: 16px;
+  }
+
+  .click {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+/* @media (max-width: 600px) {
+  .section1 {
+    padding: 40px 30px;
+  }
+
+  .work {
+    font-size: 26px;
+  }
+
+  .bring {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+.tart{
+    width: 100px;
+    padding: 20px;
+}
+.to{
+    width: 100px;
+    padding: 20px;
+}
+  .click {
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+  }
+
+  .click a {
+    width: 100%;
+    text-align: center;
+  }
+} */
+ @media (max-width: 900px) {
+  .section1 {
+    padding: 60px 60px;
+  }
+
+  .work {
+    font-size: 34px;
+  }
+
+  .bring {
+    font-size: 16px;
+  }
+
+  .click {
+    gap: 15px;
+  }
+
+  .click a {
+    flex: 1;
+    min-width: 130px;
+    padding: 10px 0;
+  }
+}
+
+/* Mobile (≤600px) */
+@media (max-width: 600px) {
+  .section1 {
+    padding: 40px 30px;
+  }
+
+  .work {
+    font-size: 26px;
+  }
+
+  .bring {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .click {
+   display: none;
+  }
+
+  .click a {
+    width: 80%;
+  }
 }
