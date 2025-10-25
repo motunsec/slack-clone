@@ -1456,6 +1456,21 @@ p {
   font-size: 0.95rem;
   line-height: 1.5;
 }
+@media (max-width: 768px) {
+  .faq {
+    font-size: 24px; 
+    text-align: center;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .faq {
+    font-size: 20px; 
+    text-align: center;
+    margin: 15px auto;
+  }
+}
 
 .last {
   background: #4A154B;

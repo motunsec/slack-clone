@@ -562,6 +562,7 @@ h3 {
 }
 
 .learn-more {
+  text-decoration: none;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
