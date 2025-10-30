@@ -1394,10 +1394,11 @@ h3 {
   }
 
   .images {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 10px;
+    gap: 10px; */
+    display: none;
   }
 .section4{
   display: none;
