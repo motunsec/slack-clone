@@ -1335,7 +1335,9 @@ h3 {
 
   .nav-links,
   .right-side {
-    display: none;
+   display: flex;
+   flex-direction: column;
+   font-size: 30px;
   }
 
   #menu-toggle:checked~nav .nav-links,
