@@ -1155,12 +1155,16 @@ h3 {
     gap: 1.5em;
     text-align: center;
   }
-
+.images{
+  display: none;
+}
   .one-side {
     flex-direction: column;
     gap: 1em;
   }
-
+   .images{
+    display: none;
+   }
   .llc {
     text-align: center;
     font-size: 13px;
@@ -1181,7 +1185,9 @@ h3 {
   .install a {
     font-size: 18px;
   }
-
+.images{
+  display: none;
+}
   .footer-text a {
     font-size: 14px;
   }
@@ -1192,7 +1198,9 @@ h3 {
     max-width: 100%;
     padding: 10px 20px;
   }
-
+.images{
+  display: none;
+}
   nav {
     flex-direction: column;
     align-items: flex-start;
@@ -1238,7 +1246,9 @@ h3 {
     right: 25px;
     z-index: 1200;
   }
-
+.images{
+  display: none;
+}
   nav {
     flex-direction: column;
     align-items: flex-start;
@@ -1280,7 +1290,9 @@ h3 {
   header {
     padding: 8px 10px;
   }
-
+.images{
+  display: none;
+}
   .hamburger {
     top: 18px;
     right: 18px;
@@ -1493,7 +1505,9 @@ h3 {
   .seven {
     font-size: 1.2rem;
   }
-
+.images{
+  display: none;
+}
   .percent-text,
   .seven-text,
   .more-text h2,
